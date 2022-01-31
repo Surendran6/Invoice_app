@@ -1,0 +1,92 @@
+html,
+body {
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    rgb(163 181 239) 0%,
+    rgb(171 130 243) 35%,
+    rgba(242, 172, 198, 1) 100%
+  );
+  font-family: "Times New Roman";
+  font-size: 16px;
+}
+
+.bg-dark {
+  background-color: #819ffd !important;
+}
+.logo {
+  margin-top: 10%;
+  display: absolute;
+}
+
+.bill_text {
+  font-size: 24px;
+}
+
+.logo > .bill {
+  width: 266px;
+  height: 229px;
+  border-radius: 50%;
+  border: 2px solid #000;
+  background: transparent;
+  font-size: 81px;
+}
+.h2 {
+  font-size: 14px;
+}
+.home_container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-primary {
+  margin-top: 13%;
+  color: #000;
+  width: 135px;
+  height: 50px;
+  font-size: 22px;
+}
+
+.btn-primary:hover {
+  color: #000;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    margin-top: 117px;
+  }
+  h2 {
+    font-size: 16px;
+    padding-top: 4px;
+    font-weight: 600;
+  }
+  .btn-primary {
+    margin-top: 27%;
+    font-size: 13px;
+    width: 81px;
+    height: 34px;
+  }
+
+  body {
+    font-size: 14px;
+  }
+  .logo > .bill {
+    width: 178px;
+    height: 151px;
+    font-size: 46px
+  }
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+}
+.navbar-toggler {
+  padding: 0 !important;
+  font-size: 15px !important;
+  line-height: 1 !important;
+  background-color: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+}
