@@ -1,19 +1,5 @@
-html,
-body {
-  height: 100%;
-  background: linear-gradient(
-    90deg,
-    rgb(163 181 239) 0%,
-    rgb(171 130 243) 35%,
-    rgba(242, 172, 198, 1) 100%
-  );
-  font-family: "Times New Roman";
-  font-size: 16px;
-}
 
-.bg-dark {
-  background-color: #819ffd !important;
-}
+
 .logo {
   margin-top: 10%;
   display: absolute;
@@ -82,11 +68,4 @@ body {
   position: absolute;
   bottom: 0;
 }
-.navbar-toggler {
-  padding: 0 !important;
-  font-size: 15px !important;
-  line-height: 1 !important;
-  background-color: transparent !important;
-  border: 0 !important;
-  border-radius: 0 !important;
-}
+
