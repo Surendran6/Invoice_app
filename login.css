@@ -1,0 +1,72 @@
+
+.container {
+  height: 100%;
+  align-content: center;
+}
+
+.card {
+  height: 280px;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+.card-header h3 {
+  color: #000;
+}
+
+.input-group-prepend span {
+  width: 50px;
+  background-color: #387cbd;
+  color: black;
+  border: 0 !important;
+}
+
+input:focus {
+  outline: 0 0 0 0 !important;
+  box-shadow: 0 0 0 0 !important;
+}
+
+.remember {
+  color: #000;
+}
+
+.remember input {
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+
+.login_btn {
+  color: #000;
+  background-color: #387cbd;
+  width: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+}
+
+.login_btn:hover {
+  background-color: #0a7be7;
+}
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+  .card {
+    height: 250px;
+    width: 300px;
+  }
+  .login_btn {
+    width: 78px;
+    height: 27px;
+    font-size: 11px;
+  }
+}
