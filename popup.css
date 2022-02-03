@@ -29,11 +29,16 @@
     display: flex;
     justify-content: space-around;
     margin-top: 45px;
+    font-size: 34px;
   }
   
   .link-container {
     display: flex;
     justify-content: center;
+  }
+
+  .card-subtitle {
+    font-size: 27px;
   }
   
   .number {
@@ -46,6 +51,7 @@
     display: flex;
     justify-content: space-around;
     margin-top: 60px;
+    font-size: 34px;
   }
   .cancel-btn {
     background-color: #e0e0e0;
@@ -127,11 +133,23 @@
         font-size: 22px;
       }
 
-    .card-title{
+    .card-title {
         font-size: 22px !important;
     }
-    .price-padding{
-        padding-left: 10px ;
+    .price-padding {
+        padding-left: 10px;
     }
+
+    .price-container {
+      font-size: 14px;
+    }
+
+    .discount-container {
+      font-size: 14px;
+    }
+
+    .card-subtitle {
+      font-size: 14px;
+    } 
   }
   
