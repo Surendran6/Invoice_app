@@ -10,24 +10,39 @@
     integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous" />
   <!--Custom styles-->
   <link rel="stylesheet" type="text/css" href="app.css" />
-  <link rel="stylesheet" type="text/css" href="manual-search no product found.css" />   
+  <link rel="stylesheet" type="text/css" href="manual-search no product found.css" />
   <title>manual-search no product found</title>
 </head>
+
 <body>
   <div class="container-main">
     <div>
-  
+      <div class="container-left">
         <div class="search">
-        <h6 class="card-title">Search product manually</h6>
-        <input type="text" class="form-control" id="item-id" placeholder="enter the item id">      
-        <button type="button" class="btn btn-info">Search</button>
-      </div>         
-   
-      <div class="no-product"><h3>No product found!</h3><div><h3>Try again</h3</div>
+          <h6 class="card-title">Search product manually</h6>
+          <div class="item-container">
+            <label>ItemID</label>
+            <input type="text" class="form-control form-control-lg" id="item-id" placeholder="enter the item id">
+          </div>
+
+          <button type="button" class="btn btn-info button-size">Search</button>
+        </div>
+        <div class="link-container"><a>
+            <p><u>Scan bar code</u></p>
+          </a> </div>
+      </div>
+      <div class="no-product">
+        No product found!
+        <div>
+          Try again
+        </div>
+      </div>
     </div>
-  
-    <div class="footer"><a><u>3 item in cart</u></a></div>
+    <div class="footer"> <button type="button" class="btn btn-primary button-size">
+        <i class="fas fa-cart-plus"></i> 5 items</div>
+  </div>
   </div>
   </div>
 </body>
+
 </html>

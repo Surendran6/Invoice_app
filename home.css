@@ -31,14 +31,13 @@
   width: 100px;
   height: 50px;
   font-size: 22px;
-  background-color:#387cbd !important;
+  background-color: #387cbd !important;
   border-color: #387cbd !important;
 }
 
 .btn-primary:hover {
   color: #000;
 }
-
 
 @media only screen and (max-width: 600px) {
   .logo {

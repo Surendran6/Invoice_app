@@ -10,51 +10,36 @@
     integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous" />
   <!--Custom styles-->
   <link rel="stylesheet" type="text/css" href="app.css" />
-  <link rel="stylesheet" type="text/css" href="search-manually.css" />   
+  <link rel="stylesheet" type="text/css" href="search-manually.css" />
+  <!--Fontawesome CDN-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" />
   <title>search-manually</title>
 </head>
+
 <body>
   <div class="container-main">
     <div>
       <div class="container-left">
         <div class="search">
           <h6 class="card-title">Search product manually</h6>
-        <input type="text" class="form-control" id="item-id" placeholder="enter the item id">       
-        <button type="button" class="btn btn-info">Search</button>
-      </div>
-        <div class="link-container"><a><p><u>Scan bar code</u></p> </a> </div>     
-      </div>
-    </div>
-    <div class="shadow card" style="width: 18rem; height: 280px">
-      <div class="card-body">
-        <div class="title-container">
-          <h6 class="card-title">Product Type-Product Name</h6>
-          <p class="card-subtitle mb-2 text-muted">item code 5-12-18</p>
-        </div>
-        <div class="card-text price-container">
-          <div>
-            Price:<span class="number"><i class="fas fa-rupee-sign"></i>5000</span>
+          <div class="item-container">
+            <label>ItemID</label>
+            <input type="text" class="form-control form-control-lg" id="item-id" placeholder="enter the item id">
           </div>
-          <div>
-            Dis:<span class="number"><i class="fas fa-rupee-sign"></i>5000(10%)</span>
-          </div>
+
+          <button type="button" class="btn btn-info button-size">Search</button>
         </div>
-        <div class="card-text discount-container">
-          <div>
-            Discount Price:
-            <span class="dis-number"><i class="fas fa-rupee-sign"></i>4500</span>
-          </div>
-        </div>
-        <div class="card-text price-container">
-          <button type="button" class="btn btn-default cancel-btn">
-            Cancel
-          </button>
-          <button type="button" class="btn btn-primary">Add</button>
-        </div>
+        <div class="link-container"><a>
+            <p><u>Scan bar code</u></p>
+          </a> </div>
       </div>
     </div>
-    <div class="footer"><a><u>3 item in cart</u></a></div>
+    <div class="footer"> <button type="button" class="btn btn-primary button-size">
+        <i class="fas fa-cart-plus"></i> 5 items</div>
+  </div>
   </div>
   </div>
 </body>
+
 </html>
