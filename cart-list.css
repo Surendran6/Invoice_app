@@ -1,0 +1,148 @@
+.container-main {
+  padding-top: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.radio {
+  display: flex;
+  padding-left: 16px;
+  padding-top: 10px;
+}
+
+.radio > label {
+  margin-right: 25px;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+.plus {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 10px 16px 10px;
+    font-size: 32px;
+    margin-top: -34px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.product-container {
+   padding-left: 16px;
+   padding-right: 16px;
+   padding-bottom: 50px;
+}
+
+.product {
+  display: flex;
+  justify-content: space-between;
+  font-size: 32px;
+  margin-top: 15px;
+}
+
+.form-group {
+  margin-bottom: 8px;
+}
+
+.btn-primary {
+  margin-top: 13%;
+  color: #000 !important;
+  width: 109px;
+  height: 33px;
+  font-size: 19px;
+  background-color: #387cbd !important;
+  border-color: #387cbd !important;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-size {
+    width: 197px;
+    height: 44px;
+    font-size: 31px;
+}
+
+.btn-primary:hover {
+  color: #000;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.price-cal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 28px;
+    padding-top: 20px;
+}
+
+.discount-cal {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 28px;
+    padding-top: 3px;
+}
+
+.tax {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 28px;
+    padding-top: 3px; 
+}
+
+.discount {
+    padding-right: 34px;
+}
+
+hr {
+    margin-top: 16px;
+    margin-bottom: 3px;
+    border: 0;
+    border-top: 2px dotted rgba(0,0,0,.5);
+}
+
+.align {
+  padding-top: 0 !important;
+}
+
+.review {
+    padding-top: 30px;
+}
+
+.card-body {
+    padding: 6px;
+}
+
+@media only screen and (max-width: 600px) {
+  .product {
+    font-size: 17px;
+    margin-top: 4px;
+  }
+
+  .price-cal,.discount-cal, .tax {
+    font-size: 15px;
+  }
+
+  .btn-primary {
+    width: 89px;
+    height: 30px;
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+  }
+}
