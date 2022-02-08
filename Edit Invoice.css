@@ -144,6 +144,17 @@ font-size: 20px;
 .rupee-weight{
    font-size: 17px;
 }
+.invoice-title{
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+.invoice-number{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 20px;
+}
 @media only screen and (max-width: 600px) {
   .product {
     font-size: 17px;

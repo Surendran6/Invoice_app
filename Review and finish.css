@@ -6,29 +6,6 @@
   flex-direction: column;
 }
 
-.radio {
-  display: flex;
-  padding-left: 16px;
-  padding-top: 10px;
-  font-size: 20px;
-}
-
-.radio > label {
-  margin-right: 25px;
-}
-
-input[type="radio"] {
-  margin-right: 5px;
-}
-
-.plus {
-  display: flex;
-  justify-content: flex-end;
-  padding: 0 10px 16px 10px;
-  font-size: 32px;
-  margin-top: -34px;
-}
-
 .form-container {
   display: flex;
   flex-direction: row;
@@ -141,6 +118,7 @@ font-size: 20px;
 .add-align{
   display: flex;
 }
+
 .rupee-weight{
    font-size: 17px;
 }
@@ -150,17 +128,6 @@ font-size: 20px;
     margin-top: 4px;
   }
 
-  .plus {
-    font-size: 17px;
-    margin-top: -26px;
-  }
-
-  .radio {
-    font-size: 16px;
-  }
-
-  .price-cal,
-  .discount-cal,
   .tax {
     font-size: 15px;
   }
@@ -174,3 +141,5 @@ font-size: 20px;
     justify-content: center;
   }
 }
+
+
