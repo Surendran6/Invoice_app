@@ -1,0 +1,9 @@
+<tr>
+                    <td >Before Tax:<i class="fas fa-rupee-sign"></i></td>
+                    <td>7744</td>   
+      <td>    
+    <span class="discount price-align">total<i class="fas fa-rupee-sign"></i></span>
+    </td>
+    <td class="price-align"><span class="total-price">8800</span></td>
+
+    </tr>
