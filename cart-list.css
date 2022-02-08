@@ -138,8 +138,8 @@ font-size: 20px;
 .borderless td, .borderless th {
     border: none;
 }
-.button-size-small{
-  
+.add-align{
+  display: flex;
 }
 @media only screen and (max-width: 600px) {
   .product {
