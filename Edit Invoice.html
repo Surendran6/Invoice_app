@@ -28,8 +28,12 @@
         </span>
     </nav>
     <div class="container">
-        <div class="invoice-title" ><p>Invoice Detail</p></div>
-        <div class="invoice-number"><p>Invoice#:</p><span>1001</span></div>
+        <div class="invoice-title">
+            <p>Invoice Detail</p>
+        </div>
+        <div class="invoice-number">
+            <p>Invoice#:</p><span>1001</span>
+        </div>
         <div class="radio">
             <label class="radio-inline">
                 <input type="radio" name="delivery">ship
@@ -38,10 +42,7 @@
                 <input type="radio" name="delivery" checked>pos
             </label>
         </div>
-        <div class="plus">
-            <div class="button-container review"> <button type="button" class="btn btn-primary button-size-small">
-                    add</div>
-        </div>
+      
 
         <div>
             <form class="form-horizontal">
@@ -51,7 +52,7 @@
                 <div class="form-group col-sm-12">
                     <input type="text" class="form-control" id="name-user" placeholder="Name">
                 </div>
-                
+               
                 <div class="form-group col-sm-12">
                     <input onfocus="(this.type='date')" onblur="(this.type='text')" class="form-control" id="date"
                         placeholder="dd-mm-yyyy">
@@ -71,7 +72,7 @@
                 <tbody>
                     <tr>
                         <td>
-                            <i class="fas fa-rupee-sign"></i>
+                            <i class="fas fa-rupee-sign rupee-weight"></i>
                             <input class="width-placeholder price-align " type="text" placeholder="5000"><span
                                 style="font-size: 30px; padding-left: 2%;">*2</span>
                         </td>
@@ -82,10 +83,10 @@
                         <td></td>
                         <td class="price-align">
                             <span class="discount price-align">discount <i
-                                    class="fas fa-rupee-sign rupee-weight"></i></span>
+                                    class="fas fa-rupee-sign rupee-weight "></i></span>
                         </td>
                         <td class="price-align">
-                            <input class="width-placeholder price-align" type="text" placeholder="5000">
+                            <input class="width-placeholder" type="text" placeholder="5000">
                         </td>
                     </tr>
                     <tr>
@@ -126,7 +127,8 @@
                     </tr>
                     <tr>
                         <td class="price-align">
-                            <span class="discount price-align">total <i class="fas fa-rupee-sign rupee-weight"></i></span>
+                            <span class="discount price-align">total <i
+                                    class="fas fa-rupee-sign rupee-weight"></i></span>
                         </td>
                         <td class="price-align"><span class="total-price">8800</span></td>
                     </tr>
@@ -144,12 +146,11 @@
                     <tr>
                         <td>GST: <i class="fas fa-rupee-sign"></i></td>
                         <td>1056</td>
-                        <td>(12% of ₹7744)</td>
                     </tr>
                 </tbody>
             </table>
             <div class="button-container review"> <button type="button" class="btn btn-primary button-size">
-                    Update</div>                    
+                    Update</div>
         </div>
     </div>
     </div>
