@@ -155,7 +155,9 @@ font-size: 20px;
     padding-left: 2%;
     font-weight: bold;
 }
-
+.card{
+  margin-top: 10px
+}
 @media only screen and (max-width: 800px) {
   .product {
     font-size: 20px;
