@@ -43,9 +43,9 @@ input[type="radio"] {
 .product {
   display: flex;
   justify-content: space-between;
-  font-size: 32px;
-  margin: 15px;
+  font-size: 32px;  
   font-weight: bolder;
+  margin-bottom: 10px;
 
 }
 
@@ -133,7 +133,6 @@ hr {
     font-size: 36px;
 }
 .items-display{
- padding: 20px;
 font-size: 20px;
 }
 
@@ -146,6 +145,16 @@ font-size: 20px;
 .rupee-weight{
    font-size: 17px;
 }
+.price-align {
+    text-align: right;
+    font-size: 20px;
+  }
+.multi-align {
+    font-size: 25px;
+    padding-left: 2%;
+    font-weight: bold;
+}
+
 @media only screen and (max-width: 800px) {
   .product {
     font-size: 20px;
@@ -170,7 +179,7 @@ font-size: 20px;
 
   .price-align {
     text-align: right;
-    font-size: 20px;
+    font-size: 16px;
     margin: -2px;
 }
 
@@ -185,5 +194,16 @@ font-size: 20px;
   .form-control {
     width: 100%!important;
     display: inherit;
+}
+.rupee-weight {
+    font-size: 11px;
+}
+
+.multi-align {
+    font-size: 20px;
+    padding-left: 2%;
+}
+.items-display{
+font-size: 15px;
 }
 }

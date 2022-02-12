@@ -1,9 +1,33 @@
+
 .container-main {
   padding-top: 2px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+.radio {
+  display: flex;
+  padding-left: 16px;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.radio > label {
+  margin-right: 25px;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+.plus {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 10px 16px 10px;
+  font-size: 32px;
+  margin-top: -34px;
 }
 
 .form-container {
@@ -21,8 +45,8 @@
   display: flex;
   justify-content: space-between;
   font-size: 32px;
-  margin-top: 15px;
- font-weight: bolder;
+  margin-bottom: 10px;
+  font-weight: bolder;
 }
 
 .form-group {
@@ -44,9 +68,9 @@
 }
 
 .button-size {
-     width: 153px;
-    height: 44px;
-    font-size: 25px;
+  width: 197px;
+  height: 44px;
+  font-size: 31px;
 }
 
 .btn-primary:hover {
@@ -91,7 +115,7 @@ hr {
 .price-align{
     text-align: right;
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 600;
 }
 .form-control {   
     width: 50%;
@@ -108,10 +132,7 @@ hr {
      font-weight: 800;
     font-size: 36px;
 }
-.items-display{
- padding: 20px;
-font-size: 25px;
-}
+
 
 .borderless td, .borderless th {
     border: none;
@@ -119,36 +140,68 @@ font-size: 25px;
 .add-align{
   display: flex;
 }
-
 .rupee-weight{
    font-size: 17px;
 }
+.price-align {
+    text-align: right;
+    font-size: 20px;
+  }
+.multi-align {
+    font-size: 25px;
+    padding-left: 2%;
+    font-weight: bold;
+}
+.invoice-number{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 20px;
+}
+
 .invoice-title{
   display: flex;
   justify-content: center;
   font-size: 30px;
   font-weight: 600;
 }
+.left-container{
+  font-size: 25px;
+}
+.items-display{
+font-size: 20px;
+}
 .align-button{
     display: flex;
     justify-content: space-between;
 }
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 800px) {
   .product {
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 4px;
-    font-weight: bold;
+    font-weight: bolder;
+  }
+
+  .plus {
+    font-size: 17px;
+    margin-top: -26px;
+  }
+
+  .radio {
+    font-size: 16px;
+  }
+
+  .price-cal,
+  .discount-cal,
+  .tax {
+    font-size: 10px;
   }
 
   .price-align {
     text-align: right;
-    font-size: 20px;
+    font-size: 16px;
     margin: -2px;
 }
-
-  .tax {
-    font-size: 15px;
-  }
 
   .btn-primary {
     width: 89px;
@@ -158,6 +211,23 @@ font-size: 25px;
     align-items: center;
     justify-content: center;
   }
+  .form-control {
+    width: 100%!important;
+    display: inherit;
+}
+.rupee-weight {
+    font-size: 11px;
 }
 
+.multi-align {
+    font-size: 20px;
+    padding-left: 2%;
+}
+.left-container{
+  font-size: 15px;
+}
+.items-display{
+font-size: 15px;
+}
+}
 
