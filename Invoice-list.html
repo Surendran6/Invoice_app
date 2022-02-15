@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    <!--Fontawesome CDN-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <!--Custom styles-->
+        <link rel="stylesheet" type="text/css" href="app.css" />
+        <link rel="stylesheet" type="text/css" href="Invoice-list.css" />
+    <title>Invoice-list</title>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-dark">
+        <button class="navbar-toggler" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <span>
+            <h3>customer brand name</h3>
+        </span>
+    </nav>
+    <div class="container">
+        <div class="invoice-title">
+            <p>Invoice List</p>
+        </div>
+        <div class="card" >
+        <div class="card-body">
+        <table class='table borderless'>
+            <tbody>
+                <div class="row top-buffer">
+                <tr>
+                    <td class="price-align align-right">
+                        <span >From  </span>
+                    </td>
+                    <td class="price-align">
+                        <input class="width-placeholder price-align" type="text" placeholder="">                        
+                    </td>
+                    <td class="price-align align-right">
+                        <span >To  </span>
+                    </td>
+                    <td class="price-align">
+                        <input class="width-placeholder price-align" type="text" placeholder="">
+                    </td>
+                </tr>           
+              
+                    <tr>
+                    <td class="price-align align-right" >
+                        <span>Invoice No </span>
+                    </td>
+                    <td class="price-align">
+                        <input class="width-placeholder price-align" type="text" placeholder="">
+                    </td>
+                    <td class="price-align align-right">
+                        <span>Customer Name </span>
+                    </td>
+                    <td class="price-align">
+                        <input class="width-placeholder price-align" type="text" placeholder="">
+                    </td>
+                   
+                </tr><div>
+            </tbody>
+        </table>
+        </div>       
+        </div>
+        <div class="button-container review"> <button type="button" class="btn btn-primary button-size">
+                Search</div>
+    
+    <hr>
+    <table class='table borderless'>
+        <tbody>                
+    
+                <tr>
+                    <td class="price-align align-right">
+                        <span>Date: </span>
+                    </td>
+                    <td class="price-align">
+                    01-01-2022
+                    </td>
+                    <td class="price-align align-right">
+                        <span>No of Items: </span>
+                    </td>
+                    <td class="price-align">
+                        4
+                    </td>    
+                </tr>
+                <tr>
+                    <td class="price-align ">
+                        <span>Invoice #: </span>
+                    </td>
+                    <td class="price-align">
+                    1001
+                    </td>
+                    <td class="price-align align-right">
+                        <span>Amount: </span>
+                    </td>
+                    <td class="price-align">
+                    <i class="fas fa-rupee-sign rupee-weight"></i>12,000
+                    </td>
+                </tr>
+                <tr>
+                    <td class="price-align align-right">
+                        <span>Customer: </span>
+                    </td>
+                    <td class="price-align ">
+                    7899318701
+                    </td>                   
+                </tr>
+                <div>
+        </tbody>
+    </table>
+    <hr>
+    <div class="space-allotment">
+        <hr>
+    </div>
+    <div class="space-allotment">
+        <hr>
+    </div>
+        <div class="button-container Pagination"> <button type="button" class="btn btn-primary button-size">
+                Pagination</div>
+   
+ 
+    </div>
+</body>
+</html>

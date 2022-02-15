@@ -1,0 +1,110 @@
+.container-main {
+  padding-top: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.invoice-title{
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+ .table td, .table th {
+    padding: 1px;
+    vertical-align: middle;
+  }
+   .price-align {
+    margin: 5px 0 ;
+    text-align: right;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.align-right  {
+  text-align: right;
+}
+.width-placeholder{
+  width: 80%;
+}
+.align-textbox{
+  width: 10%;
+}
+.top-buffer { margin-top:20px; }
+
+
+.borderless td, .borderless th {
+    border: none;
+}
+
+
+.btn-primary {
+  margin-top: 10%;
+  color: #000 !important;
+  width: 109px;
+  height: 33px;
+  font-size: 19px;
+  background-color: #387cbd !important;
+  border-color: #387cbd !important;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-size {
+  width: 197px;
+  height: 44px;
+  font-size: 31px;
+}
+
+.btn-primary:hover {
+  color: #000;
+}
+
+.button-container {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-top: 10px;
+}
+.Pagination{
+  justify-content: center; 
+}
+.space-allotment{
+  margin-top: 20%;
+}
+
+@media only screen and (max-width: 800px) {
+
+  .price-align {
+    text-align: right;
+    font-size: 16px;
+    margin: -2px;
+}
+
+  .btn-primary {
+    width: 89px;
+    height: 30px;
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+  }
+  .form-control {
+    width: 100%!important;
+    display: inherit;
+}
+.rupee-weight {
+    font-size: 11px;
+}
+
+.multi-align {
+    font-size: 20px;
+    padding-left: 2%;
+}
+.items-display{
+font-size: 15px;
+}
+}
