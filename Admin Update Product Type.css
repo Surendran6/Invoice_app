@@ -1,33 +1,9 @@
-.container-main {
-  padding-top: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.card {
-     margin: 15px;
-    float: none;
-    margin-bottom: 10px;
-    height:  380px;;
-    width: 90%
-}
-
-.title-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  margin-top: 10px;
-}
-
 .btn-primary {
-  margin-top: 13%;
+  margin-top: 10%;
   color: #000 !important;
-  width: 109px;
+  width: 146px;
   height: 33px;
-  font-size: 19px;
+  font-size: 15px;
   background-color: #387cbd !important;
   border-color: #387cbd !important;
   margin: 0px;
@@ -37,9 +13,9 @@
 }
 
 .button-size {
- width: 147px;
-height: 50px;
-font-size: 35px;
+  width: 197px;
+  height: 44px;
+  font-size: 31px;
 }
 
 .btn-primary:hover {
@@ -48,27 +24,25 @@ font-size: 35px;
 
 .button-container {
   display: flex;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
-  margin: 35px;
+  margin-top: 10px;
 }
-
-
+.center-align{
+display: flex;
+justify-content: center;
+}
+.card-title3{
+  font-size: 20px;
+}
+.modal-title {   
+    padding-left: 30%;      
+    font-weight: bolder;
+}
 .align-content{
    margin-top: 28px;
     display: flex;
     justify-content: space-around;
-}
-.card-title2{
-    font-size: 30px;
-    
-}
-.card-title3{
-    font-size: 30px;  
-}
-
-.card-title {
-  font-size: 50px 
 }
 .width-placeholder{
   width: 80%;
@@ -77,22 +51,12 @@ font-size: 35px;
 .width-alignment{
   width: 38%;
 }
-.font-size-placeholder{
-  font-size: 30px !important;
-  
+@media only screen and (max-width: 800px) {
+
+  .width-placeholder{
+  width: 63%;
 }
-@media only screen and (max-width: 600px) {
-  body {
-    font-size: 16px;
-    font-weight: bold;
-  }
-  .card-title {
- font-size: 25px;
-}
-  .card {
-    height: 250px;   
-  }  
-  .card-title2{
+.card-title2{
     font-size: 16px;
     font-weight: bold;    
 }
@@ -100,17 +64,8 @@ font-size: 35px;
     font-size: 16px;  
     font-weight: bold;
 }
-  .btn-primary {
-    width: 89px;
-    height: 30px;
-    display: flex;
-    font-size: 15px;
-    align-items: center;
-    justify-content: center;
-  }
-  .font-size-placeholder{
-   font-size: 16px !important;
-    font-weight: bold;
+.modal-title {   
+    padding-left: 15%;    
 }
 .width-alignment{
   width: 40%;
