@@ -1,9 +1,9 @@
 .btn-primary {
   margin-top: 10%;
   color: #000 !important;
-  width: 109px;
+  width: 146px;
   height: 33px;
-  font-size: 19px;
+  font-size: 15px;
   background-color: #387cbd !important;
   border-color: #387cbd !important;
   margin: 0px;
@@ -27,4 +27,27 @@
   justify-content: right;
   align-items: center;
   margin-top: 10px;
+}
+.center-align{
+display: flex;
+justify-content: center;
+}
+.card-title3{
+  font-size: 20px;
+}
+.modal-title {   
+    padding-left: 36%;      
+    font-weight: bolder;
+}
+@media only screen and (max-width: 800px) {
+
+  .width-placeholder{
+  width: 63%;
+}
+.card-title3{
+  font-size: 16px;
+}
+.modal-title {   
+    padding-left: 23%;    
+}
 }
