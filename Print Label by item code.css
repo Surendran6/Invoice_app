@@ -1,0 +1,82 @@
+.btn-primary {
+  margin-top: 10%;
+  color: #000 !important;
+  width: 146px;
+  height: 33px;
+  font-size: 15px;
+  background-color: #387cbd !important;
+  border-color: #387cbd !important;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-size {
+  width: 197px;
+  height: 44px;
+  font-size: 31px;
+}
+
+.btn-primary:hover {
+  color: #000;
+}
+
+.button-container {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-top: 10px;
+}
+.center-align{
+display: flex;
+justify-content: center;
+}
+
+.modal-title {   
+    padding-left: 31%;      
+    font-weight: bolder;
+}
+.align-content{
+   margin-top: 28px;
+    display: flex;
+    justify-content: space-around;
+}
+.width-placeholder{
+  width: 80%;
+}
+
+.width-alignment{
+  width: 38%;
+}
+.rupee-weight{
+    font-size: 15px;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+.price-align{   
+    font-size: 20px;   
+}
+
+.borderless td, .borderless th {
+    border: none;
+}
+.space-align{
+    width: 20%;
+}
+@media only screen and (max-width: 800px) {
+
+  .width-placeholder{
+  width: 63%;
+  display: flex;
+}
+.modal-title {   
+    padding-left: 7%;    
+}
+.width-alignment{
+  width: 40%;
+}
+.space-align{
+    width: 33%;
+}
+}
