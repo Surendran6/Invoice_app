@@ -1,0 +1,124 @@
+.container-main {
+  padding-top: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.invoice-title{
+  display: flex;
+  justify-content: center;
+    font-size: 26px;
+  font-weight: 600;
+}
+.left-align{
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card {
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+ height: 25rem;
+    width: 75%;
+}
+
+.radio {
+  display: flex;
+  padding-left: 16px;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.radio > label {
+  margin-right: 25px;
+}
+
+.btn-primary {
+  margin-top: 13%;
+  color: #000 !important;
+  width: 109px;
+  height: 33px;
+  font-size: 19px;
+  background-color: #387cbd !important;
+  border-color: #387cbd !important;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-size {
+     width: 153px;
+    height: 44px;
+    font-size: 25px;
+}
+
+.btn-primary:hover {
+  color: #000;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.align-button{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+.add-align{
+  display: flex;
+   margin-bottom: 10px;
+}
+.form-control {
+    width: 50%;
+    display: inherit;   
+}
+
+.rupee-weight{
+    font-size: 15px;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+.price-align{   
+    font-size: 20px;   
+}
+
+@media only screen and (max-width: 600px) {
+
+  .btn-primary {
+    width: 89px;
+    height: 30px;
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .form-control {
+    width: 105%;
+    display: inherit;   
+}
+.price-align{    
+    font-size: 16px;   
+}
+.left-align {
+    display: flex;
+    font-size: 18;   
+}
+.left-align{
+    display: flex;
+    font-size: 16px;
+    font-weight: bold;
+}
+.invoice-title { 
+    font-size: 23px;
+    font-weight: 600;
+}
+}
