@@ -55,7 +55,6 @@
      width: 153px;
     height: 44px;
     font-size: 25px;
-    margin: 10px;
 }
 
 .btn-primary:hover {
@@ -94,7 +93,6 @@
 .borderless td, .borderless th {
     border: none;
 }
-
 @media only screen and (max-width: 600px) {
 
   .btn-primary {
@@ -103,7 +101,7 @@
     display: flex;
     font-size: 15px;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;
   }
 
   .form-control {
