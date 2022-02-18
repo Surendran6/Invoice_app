@@ -1,0 +1,158 @@
+.container-main {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card { 
+    float: none;
+    margin-bottom: 10px;
+    height: 128px;
+    width: 99%;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.btn-primary {
+  margin-top: 13%;
+  color: #000 !important;
+  width: 109px;
+  height: 33px;
+  font-size: 19px;
+  background-color: #387cbd !important;
+  border-color: #387cbd !important;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-size {
+    width: 95px;
+    height: 35px;
+    font-size: 18px;
+}
+
+.btn-primary:hover {
+  color: #000;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.align-content{
+   margin-top: 28px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-title {
+  font-size: 35px 
+}
+.width-placeholder{
+  width: 80%;
+}
+
+.width-alignment{
+  width: 38%;
+}
+
+.plus {
+  display: flex;
+  justify-content: flex-end;  
+  font-size: 32px;
+  margin-top: -34px;
+}
+.plus1 {
+  display: flex;
+  justify-content: flex-end;  
+  font-size: 32px;
+  margin-top: 10px;
+}
+
+
+.rupee-weight{
+   font-size: 14px;
+}
+.font-size-align{
+  font-weight: bold;
+}
+.borderless td, .borderless th {
+    border: none;
+}
+.align-button{
+    display: flex;
+    justify-content: space-around;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.review {
+  padding-top: 30px;
+}
+.align-content1{
+  margin-top: 28px;
+  display: flex;    
+}
+.align-content1{
+  margin-top: 11px;
+  display: flex;    
+}
+.button-size-large{
+  width: 96%
+}
+.form-control {
+    width: 50%;
+    display: inherit;
+}
+.table>:not(caption)>*>* {
+    padding:0 !important;   
+}
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 16px;    
+  }
+  .card-title {
+ font-size: 25px;
+}
+  .card {
+    height: 110px;  
+  }    
+.btn-primary {
+    width: 69px;
+    height: 30px;
+    display: flex;
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+
+.width-alignment{
+  width: 40%;
+}
+.rupee-weight{
+   font-size: 13px;
+}
+.plus1 {
+  margin-top: -10px;
+}
+.form-control {
+    width: 100%;
+    display: inherit;
+}
+}

@@ -1,0 +1,96 @@
+.card-title {
+  font-size: 35px 
+}
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.form-control {
+    width: 50%;
+    display: inherit;   
+}
+.price-align{   
+    font-size: 20px;   
+}
+.borderless td, .borderless th {
+    border: none;
+}
+.name-align{
+    display: flex;
+    width: 51%;
+}
+.number-align{
+    width: 6%;
+}
+.number-align1{
+    width: 44%;
+}
+.phone-align{
+    display: flex;
+}
+.btn-primary {
+  margin: 10px;
+  color: #000 !important;
+  width: 109px;
+  height: 33px;
+  font-size: 19px;
+  background-color: #387cbd !important;
+  border-color: #387cbd !important;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-size {
+  width: 220px;
+  height: 55px;
+  font-size: 31px;
+}
+
+.btn-primary:hover {
+  color: #000;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 16px;    
+  }
+
+.card-title {
+ font-size: 25px;
+}
+
+.form-control {
+    width: 105%;
+    display: inherit;   
+}
+.price-align{    
+    font-size: 16px;   
+}
+.name-align{
+    display: flex;
+    width: 105%;
+}
+.number-align{
+    width: 33%;
+}
+.number-align1{
+    width: 100%;
+}
+ .btn-primary {
+    width: 116px;
+    height: 30px;
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+  }
+}
