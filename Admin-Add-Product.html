@@ -13,6 +13,8 @@
     <!--Fontawesome CDN-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/themes/default/style.min.css" />
     <!--Custom styles-->
     <link rel="stylesheet" type="text/css" href="app.css" />
     <link rel="stylesheet" type="text/css" href="Admin-Add-Product.css" />
@@ -36,11 +38,32 @@
         </div>
         <div class="card">
             <div class="card-body card-align">
-                <h5 class="card-title">Link enabled, or</h5>
+            
+                <div id="jstree">
+                    <ul>
+                        <li>Root node 1
+
+                            <ul>
+                                <li id="child_node_1">Child node 1
+                                <ul>
+                                    <li id="child_node_1_1">Child node 1_1</li>
+                                    <li id="child_node_2_1">Child node 2_1</li>
+                                </ul>
+                                </li>
+                                <li id="child_node_2">Child node 2</li>
+                            </ul>
+                        </li>
+                        <li>Root node 2
+                        <ul>
+                            <li id="child_node_3">Child node 1</li>
+                            <li id="child_node_4">Child node 2</li>
+                        </ul>
+                        </li>
+                    </ul>
+                    </div>                  
             </div>
-        </div>        
-     
-        
+        </div>  
+    
         <form class="form-horizontal">
         <table class='table borderless'>
             <tbody>
@@ -110,5 +133,27 @@
                 Add</div>
         </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/jstree.min.js"></script>
+    
+    <script>
+        $(function () {
+            //create an instance when the DOM is ready
+
+         $('#jstree').jstree({
+             "core": {
+                 "themes": {
+                     "icons": false                     
+                 },
+                 "multiple": false
+             },
+                "plugins": ["wholerow", "checkbox"]
+            });
+            //bind to events triggered on the tree
+            $('#jstree').on("changed.jstree", function ( e,data) {
+                console.log(data.selected);
+            });
+        });
+    </script>
 </body>
 </html>
