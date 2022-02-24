@@ -1,0 +1,47 @@
+.price-align{
+    text-align: right;
+    font-size: 16px;
+    font-weight: 500;
+}
+.rupee-weight{
+   font-size: 17px;
+}
+.total-price{
+     font-weight: 800;
+    font-size: 36px;
+}
+.title-size{
+    font-size: 24px;
+    font-weight: bolder;
+}
+.title-align{
+    text-align: center;
+}
+.logo-address{
+    display: flex;
+}
+img{
+width: 100px;
+height: 161px;
+margin: 10px;
+}
+.title-price{
+    font-weight: bold;
+}
+.text-align-tamil{
+    display: flex;
+    justify-content: center;
+}
+.borderless td, .borderless th {
+    border: none;
+}
+@media only screen and (max-width: 800px) {
+.price-align {
+    text-align: right;
+    font-size: 16px;
+    margin: -2px;
+}
+.rupee-weight{
+   font-size: 11px;
+}
+}
