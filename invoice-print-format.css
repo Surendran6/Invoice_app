@@ -4,7 +4,7 @@
     font-weight: 500;
 }
 .rupee-weight{
-   font-size: 17px;
+   font-size: 13px;
 }
 .total-price{
      font-weight: 800;
@@ -34,6 +34,19 @@ margin: 10px;
 }
 .borderless td, .borderless th {
     border: none;
+}
+.title-size1{    
+    font-weight: bolder;    
+}
+.rupee-weight1{
+    font-size: 28px;
+}
+table {
+  width: 100%;
+  table-layout: fixed;
+}
+hr {
+    margin-top: -18px;
 }
 @media only screen and (max-width: 800px) {
 .price-align {
