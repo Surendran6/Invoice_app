@@ -21,7 +21,7 @@
 .qr-details{
     display: flex;
     justify-content: center;
-    font-size: 10px;
+       font-size: 8px;
 }
 .right-align{
     text-align: right;
@@ -29,8 +29,8 @@
 }
 
 .qr-image {
-    height: 96px;
-    width: 96px;
+    height: 72px;
+    width: 72px;
     margin: 0 auto;
     float: none;   
 }
